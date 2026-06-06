@@ -1,0 +1,18 @@
+# Python Environments
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Large Data Files
+data/*.csv
+data/*.xlsx
+
+# Large Machine Learning Models (Over 100MB)
+models/similarity_matrix.pkl
+
+# OS generated files
+.DS_Store
+Thumbs.db

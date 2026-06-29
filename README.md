@@ -1,8 +1,8 @@
-# 🛒 Shopper Spectrum: E-Commerce Analytics & Recommendation Engine
+# Shopper Spectrum: E-Commerce Analytics & Recommendation Engine
 
 Shopper Spectrum is an end-to-end Machine Learning web application designed to help e-commerce businesses understand their customers and drive sales. It combines Unsupervised Learning for customer segmentation with Collaborative Filtering for targeted product recommendations.
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Product Recommendation Engine
 An item-based collaborative filtering system. By calculating the Cosine Similarity across thousands of products based on historical purchasing data, the app instantly recommends the top 5 items most frequently bought with any searched product.
@@ -19,13 +19,13 @@ A K-Means clustering algorithm that evaluates a customer's Recency, Frequency, a
 
 ![Customer Segmentation](assets/customer_segmentation.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Data Science & ML:** Python, Pandas, NumPy, Scikit-Learn
 * **Visualization:** Matplotlib, Seaborn, Plotly (3D Interactive)
 * **Web Framework:** Streamlit
 * **Deployment:** Local Virtual Environment
 
-## 🔬 Behind the Scenes (Data Science Pipeline)
+## Workflow Pipeline
 Before building the app, the raw transactional data underwent rigorous preprocessing:
 1. Data cleaning and handling of missing/canceled orders.
 2. Exploratory Data Analysis (EDA) to uncover geographical and product trends.
